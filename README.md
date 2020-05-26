@@ -43,7 +43,7 @@ Only the load balancer & the jump box machine can accept connections from the In
 * 51.141.175.21
 * 20.42.147.230
 
-Machines within the network can only be accessed by ort (22) jumpbox server 10.0.1.4
+Machines within the network can only be accessed by port (22) jumpbox server 10.0.1.4
 
 A summary of the access policies in place can be found in the table below.
 
