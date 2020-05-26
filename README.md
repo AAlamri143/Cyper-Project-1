@@ -49,7 +49,7 @@ A summary of the access policies in place can be found in the table below.
 
 |      Name      | Publicly Accessible |  Allowed IP Addresses  |
 |----------------|---------------------|------------------------|
-|    Jump Box    |         Yes         |     52.183.62.241      |
+|    Jump Box    |         Yes         |     51.141.175.21      |
 | Load balancer  |         Yes         |     20.42.147.230      |
 |    Elk stack   |         No          |  all VW1,2,3,4 jumpbox |
 |        ~       |          ~          |        10.0.1.4        |
@@ -103,10 +103,6 @@ SSH into the control node and follow the steps below:
 
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
 
 **Bonus**
 The specific command the user will need to run to download the playbook, update the files, etc. is:
