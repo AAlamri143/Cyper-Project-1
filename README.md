@@ -94,12 +94,12 @@ SSH into the control node and follow the steps below:
 - Copy the Filebeat Configuration file to the DVWA-VMs.
 - Update the hosts file to include:
 #### [webservers]
-10.0.1.5
-10.0.1.6
-10.0.1.9
-10.0.1.10
+* 10.0.1.5
+* 10.0.1.6
+* 10.0.1.9
+* 10.0.1.10
 #### [elkservers]
-10.0.1.4
+* 10.0.1.4
 
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
